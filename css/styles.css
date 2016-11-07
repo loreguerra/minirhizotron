@@ -3,17 +3,23 @@ body {
   background-color: #fff; }
 
 .header {
-  background-color: #539a43; }
+  background-color: #539a43;
+  height: 180px; }
+
+.header-text {
+  padding-top: 35px; }
 
 h1 {
-  font-size: 90px;
+  font-size: 80px;
   font-family: "Archivo Narrow", sans-serif;
   color: #fff;
   text-transform: uppercase; }
 
 h3 {
   color: #fff;
-  font-size: 35px;
-  font-family: "Archivo Narrow", sans-serif; }
+  font-size: 30px;
+  font-family: "Archivo Narrow", sans-serif;
+  padding-top: 14px;
+  margin-left: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
