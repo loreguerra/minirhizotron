@@ -38,6 +38,13 @@ h3{
     font-size: 200%;
     font-family: $archivo;
     font-weight: bold;
-
+    margin: 0 0 20px 0 ;
+  }
+  img{
+    max-height: 560px;
+  }
+  .less-margin{
+    margin: 0 0 0 30px;
+    padding-right: $global-padding * 4;
   }
 }
