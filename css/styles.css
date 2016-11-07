@@ -44,5 +44,13 @@ h3 {
 .content {
   padding-top: 80px;
   padding-bottom: 80px; }
+  .content button {
+    background-color: #07a6aa;
+    color: #fff;
+    font-size: 110%;
+    margin-top: 10px; }
+  .content .cta {
+    padding-top: 40px;
+    padding-bottom: 40px; }
 
 /*# sourceMappingURL=styles.css.map */
