@@ -12,7 +12,8 @@ h1 {
 h2 {
   font-family: "Archivo Narrow", sans-serif;
   font-weight: bold;
-  font-size: 200%; }
+  font-size: 200%;
+  color: #1c412e; }
 
 h3 {
   color: #fff;
@@ -29,7 +30,7 @@ h3 {
     padding-top: 35px; }
 
 .intro {
-  background-color: #24533b;
+  background-color: #1c412e;
   padding-top: 80px;
   padding-bottom: 80px;
   color: #fff; }
@@ -39,5 +40,9 @@ h3 {
     margin-top: 0; }
   .intro .less-margin {
     margin-left: 30px; }
+
+.content {
+  padding-top: 80px;
+  padding-bottom: 80px; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -17,6 +17,7 @@ h2{
   font-family: $archivo;
   font-weight: bold;
   font-size: 200%;
+  color: $dark-green;
 }
 
 h3{
@@ -49,4 +50,9 @@ h3{
   .less-margin{
     margin-left: $global-margin * 1.5;
   }
+}
+
+.content{
+  padding-top: $global-padding * 4;
+  padding-bottom: $global-padding * 4;
 }
