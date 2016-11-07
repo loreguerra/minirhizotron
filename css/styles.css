@@ -33,10 +33,7 @@ h3 {
     font-family: "Archivo Narrow", sans-serif;
     font-weight: bold;
     margin: 0 0 20px 0; }
-  .intro img {
-    max-height: 560px; }
   .intro .less-margin {
-    margin: 0 0 0 30px;
-    padding-right: 80px; }
+    margin: 0 0 0 30px; }
 
 /*# sourceMappingURL=styles.css.map */
