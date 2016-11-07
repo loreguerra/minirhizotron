@@ -2,5 +2,9 @@
 @import 'helpers/variables';
 
 body {
-  // background-color: #000;
+  background-color: $white;
+}
+
+.header{
+  background-color: $green;
 }
