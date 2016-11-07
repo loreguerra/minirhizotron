@@ -5,15 +5,6 @@ body {
   background-color: $white;
 }
 
-.header{
-  background-color: $green;
-  height: 180px;
-}
-
-.header-text{
-  padding-top: $global-padding * 1.75;
-}
-
 h1{
   font-size: 80px;
   font-family: $archivo;
@@ -27,4 +18,16 @@ h3{
   font-family: $archivo;
   padding-top: $global-padding - 6;
   margin-left: $global-margin;
+}
+
+.header{
+  background-color: $green;
+  height: 180px;
+  .header-text{
+    padding-top: $global-padding * 1.75;
+  }
+}
+
+.intro{
+  background-color: $dark-green;
 }
