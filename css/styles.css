@@ -5,4 +5,15 @@ body {
 .header {
   background-color: #539a43; }
 
+h1 {
+  font-size: 90px;
+  font-family: "Archivo Narrow", sans-serif;
+  color: #fff;
+  text-transform: uppercase; }
+
+h3 {
+  color: #fff;
+  font-size: 35px;
+  font-family: "Archivo Narrow", sans-serif; }
+
 /*# sourceMappingURL=styles.css.map */
