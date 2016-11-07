@@ -18,7 +18,8 @@ h3 {
 
 .header {
   background-color: #539a43;
-  height: 180px; }
+  height: 180px;
+  border-bottom: 1px solid #fff; }
   .header .header-text {
     padding-top: 35px; }
 
