@@ -5,9 +5,14 @@ body {
 
 h1 {
   font-size: 440%;
-  font-family: "Archivo Narrow", sans-serif;
   color: #fff;
+  font-family: "Archivo Narrow", sans-serif;
   text-transform: uppercase; }
+
+h2 {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: bold;
+  font-size: 200%; }
 
 h3 {
   color: #fff;
@@ -29,11 +34,10 @@ h3 {
   padding-bottom: 80px;
   color: #fff; }
   .intro h2 {
-    font-size: 200%;
-    font-family: "Archivo Narrow", sans-serif;
-    font-weight: bold;
-    margin: 0 0 20px 0; }
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0; }
   .intro .less-margin {
-    margin: 0 0 0 30px; }
+    margin-left: 30px; }
 
 /*# sourceMappingURL=styles.css.map */
