@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700");
 body {
-  background-color: #fff; }
+  background-color: #fff;
+  font-size: 18px; }
 
 h1 {
-  font-size: 80px;
+  font-size: 440%;
   font-family: "Archivo Narrow", sans-serif;
   color: #fff;
   text-transform: uppercase; }
 
 h3 {
   color: #fff;
-  font-size: 30px;
+  font-size: 160%;
   font-family: "Archivo Narrow", sans-serif;
   padding-top: 14px;
   margin-left: 20px; }
@@ -22,6 +23,13 @@ h3 {
     padding-top: 35px; }
 
 .intro {
-  background-color: #24533b; }
+  background-color: #24533b;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #fff; }
+  .intro h2 {
+    font-size: 200%;
+    font-family: "Archivo Narrow", sans-serif;
+    font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -3,10 +3,11 @@
 
 body {
   background-color: $white;
+  font-size: $base-font-size;
 }
 
 h1{
-  font-size: 80px;
+  font-size: 440%;
   font-family: $archivo;
   color: $white;
   text-transform: uppercase;
@@ -14,7 +15,7 @@ h1{
 
 h3{
   color: $white;
-  font-size: 30px;
+  font-size: 160%;
   font-family: $archivo;
   padding-top: $global-padding - 6;
   margin-left: $global-margin;
@@ -30,4 +31,13 @@ h3{
 
 .intro{
   background-color: $dark-green;
+  padding-top: $global-padding * 4;
+  padding-bottom: $global-padding * 4;
+  color: $white;
+  h2{
+    font-size: 200%;
+    font-family: $archivo;
+    font-weight: bold;
+
+  }
 }
