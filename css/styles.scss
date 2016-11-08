@@ -35,6 +35,10 @@ h3{
     padding-top: $global-padding * 1.75;
   }
   border-bottom: 1px solid $white;
+  .no-margin{
+    margin-left: $global-margin;
+    padding:0;
+  }
 }
 
 .intro{

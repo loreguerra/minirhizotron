@@ -28,6 +28,9 @@ h3 {
   border-bottom: 1px solid #fff; }
   .header .header-text {
     padding-top: 35px; }
+  .header .no-margin {
+    margin-left: 20px;
+    padding: 0; }
 
 .intro {
   background-color: #1c412e;
