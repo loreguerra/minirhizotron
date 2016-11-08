@@ -183,6 +183,7 @@ h3{
   }
 }
 
+
 @media screen and (max-width: 990px) {
   .img-responsive{
     margin:0 auto;
@@ -209,6 +210,27 @@ h3{
     }
   }
 }
+
+@media screen and (min-width:420px) and (max-width: 580px) {
+  .content{
+    margin-bottom: $global-margin * 1.5;
+    .image-div{
+        height: 375px;
+      margin-bottom:35px;
+    }
+  }
+}
+
+@media screen and (min-width: 310px) and (max-width: 420px) {
+  .content{
+    margin-bottom: $global-margin * 1.5;
+    .image-div{
+        height: 250px;
+      margin-bottom:40px;
+    }
+  }
+}
+
 
 .footer{
   background-color: $light-gray;
