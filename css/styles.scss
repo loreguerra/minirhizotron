@@ -54,7 +54,7 @@ h3{
 
 .content{
   padding-top: $global-padding * 4;
-  padding-bottom: $global-padding * 4;
+  margin-bottom: $global-margin * 8;
   button{
     background-color: $teal;
     color: $white;
@@ -70,4 +70,10 @@ h3{
     height: 280px;
     overflow: hidden;
   }
+}
+
+.footer{
+  background-color: $light-gray;
+  font-size: 70%;
+  padding: $global-padding * 4;
 }
