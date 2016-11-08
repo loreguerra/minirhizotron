@@ -256,3 +256,10 @@ h3{
     font-size: 100%;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .footer{
+    padding: $global-padding * 2;
+    font-size: 90%;
+  }
+}

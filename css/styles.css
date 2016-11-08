@@ -171,5 +171,9 @@ h3 {
 @media screen and (max-width: 990px) {
   .footer {
     font-size: 100%; } }
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 40px;
+    font-size: 90%; } }
 
 /*# sourceMappingURL=styles.css.map */
