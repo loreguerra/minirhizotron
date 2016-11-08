@@ -166,6 +166,15 @@ h3{
   }
 }
 
+@media screen and (max-width: 767px) {
+  .content{
+    margin-bottom: $global-margin * 1.5;
+    .image-div{
+      margin-bottom: 60px;
+    }
+  }
+}
+
 .footer{
   background-color: $light-gray;
   font-size: 70%;
