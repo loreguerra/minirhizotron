@@ -81,6 +81,18 @@ h3{
   }
 }
 
+@media screen and (max-width: 990px) {
+  .intro{
+    .less-margin{
+      margin-left: 0px;
+    }
+    img{
+      margin: 0px auto;
+      padding-bottom: $global-padding * 5;
+    }
+  }
+}
+
 .content{
   padding-top: $global-padding * 4;
   margin-bottom: $global-margin * 8;
