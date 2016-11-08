@@ -67,5 +67,15 @@ h3 {
   background-color: #d9d9d9;
   font-size: 70%;
   padding: 80px; }
+  .footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000; }
+    .footer a:hover {
+      color: #539a43;
+      font-weight: bold; }
+    .footer a:visited, .footer a:active, .footer a:focus {
+      color: #000;
+      font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */

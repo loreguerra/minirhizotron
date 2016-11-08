@@ -85,4 +85,17 @@ h3{
   background-color: $light-gray;
   font-size: 70%;
   padding: $global-padding * 4;
+  a{
+    font-weight: bold;
+    text-decoration: none;
+    color: $black;
+    &:hover{
+      color: $green;
+      font-weight: bold;
+    }
+    &:visited, &:active, &:focus{
+      color: $black;
+      font-weight: bold;
+    }
+  }
 }
