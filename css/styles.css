@@ -50,6 +50,12 @@ h3 {
     font-size: 110%;
     margin-top: 10px;
     margin-bottom: 40px; }
+    .content button:hover, .content button:active, .content button:visited, .content button:focus {
+      color: #fff; }
+    .content button:hover {
+      background-color: #068e92; }
+    .content button:active {
+      background-color: #057679; }
   .content .cta {
     padding-top: 40px;
     padding-bottom: 40px; }

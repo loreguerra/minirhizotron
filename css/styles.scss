@@ -61,6 +61,15 @@ h3{
     font-size: 110%;
     margin-top: $global-margin * 0.5;
     margin-bottom: $global-margin * 2;
+    &:hover, &:active, &:visited, &:focus{
+      color: $white;
+    }
+    &:hover{
+      background-color: darken($teal, 5);
+    }
+    &:active{
+      background-color: darken($teal, 10);
+    }
   }
   .cta{
     padding-top: $global-padding * 2;
