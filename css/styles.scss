@@ -18,6 +18,15 @@ h1{
   }
 }
 
+@media screen and (max-width: 767px) {
+  h1{
+    text-align: center;
+    font-size: 370%;
+    font-size: 11vw;
+  }
+}
+
+
 h2{
   font-family: $archivo;
   font-weight: bold;
@@ -37,6 +46,15 @@ h3{
   h3{
     font-size: 140%;
     padding-top: $global-padding - 10;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h3{
+    text-align: center;
+    font-size: 200%;
+    margin:0;
+    padding: 0;
   }
 }
 
@@ -60,6 +78,15 @@ h3{
     padding-top: $global-padding * 1.25;
   }
 }
+}
+
+@media screen and (max-width: 767px) {
+  .header{
+    height: 220px;
+    .no-margin{
+      margin-left:0;
+    }
+  }
 }
 
 .intro{
