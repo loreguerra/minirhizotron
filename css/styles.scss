@@ -126,10 +126,15 @@ h3{
     margin:0 auto;
   }
   .content{
+    margin-bottom: $global-margin * 2;
     .image-div{
-      margin-bottom: 60px;
+      margin-bottom: 80px;
       height: 500px;
       overflow: hidden;
+    }
+    .cta{
+      padding-top: $global-padding * 1.25;
+      padding-bottom: $global-padding * 2;
     }
   }
 }
