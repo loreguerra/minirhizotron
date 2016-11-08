@@ -40,6 +40,9 @@ h3 {
     margin-top: 0; }
   .intro .less-margin {
     margin-left: 30px; }
+  .intro a {
+    font-weight: bold;
+    color: #a8c272; }
 
 .content {
   padding-top: 80px;

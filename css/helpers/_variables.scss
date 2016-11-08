@@ -6,6 +6,7 @@ $green: #539a43;
 $dark-green: adjust-hue(darken($green, 25), 40);
 $teal: #07a6aa;
 $light-gray: lighten($black, 85);
+$yellow: lighten(adjust-hue($green, -30), 17);
 
 // typography
 $archivo: 'Archivo Narrow', sans-serif;
