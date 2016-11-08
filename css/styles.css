@@ -109,4 +109,8 @@ h3 {
       color: #000;
       font-weight: bold; }
 
+@media screen and (max-width: 990px) {
+  .footer {
+    font-size: 100%; } }
+
 /*# sourceMappingURL=styles.css.map */
