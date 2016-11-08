@@ -9,6 +9,9 @@ h1 {
   font-family: "Archivo Narrow", sans-serif;
   text-transform: uppercase; }
 
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 370%; } }
 h2 {
   font-family: "Archivo Narrow", sans-serif;
   font-weight: bold;
@@ -22,6 +25,10 @@ h3 {
   padding-top: 14px;
   margin-left: 20px; }
 
+@media screen and (max-width: 1200px) {
+  h3 {
+    font-size: 140%;
+    padding-top: 10px; } }
 .header {
   background-color: #539a43;
   height: 180px;
@@ -32,6 +39,11 @@ h3 {
     margin-left: 20px;
     padding: 0; }
 
+@media screen and (max-width: 1200px) {
+  .header {
+    height: 150px; }
+    .header .header-text {
+      padding-top: 25px; } }
 .intro {
   background-color: #1c412e;
   padding-top: 80px;

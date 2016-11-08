@@ -12,6 +12,11 @@ h1{
   font-family: $archivo;
   text-transform: uppercase;
 }
+@media screen and (max-width: 1200px) {
+  h1{
+    font-size: 370%;
+  }
+}
 
 h2{
   font-family: $archivo;
@@ -28,6 +33,13 @@ h3{
   margin-left: $global-margin;
 }
 
+@media screen and (max-width: 1200px) {
+  h3{
+    font-size: 140%;
+    padding-top: $global-padding - 10;
+  }
+}
+
 .header{
   background-color: $green;
   height: 180px;
@@ -39,6 +51,15 @@ h3{
     margin-left: $global-margin;
     padding:0;
   }
+}
+
+@media screen and (max-width: 1200px) {
+  .header{
+    height: 150px;
+    .header-text{
+    padding-top: $global-padding * 1.25;
+  }
+}
 }
 
 .intro{
