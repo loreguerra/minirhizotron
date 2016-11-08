@@ -87,7 +87,6 @@ h3{
       margin-left: 0px;
     }
     img{
-      margin: 0px auto;
       padding-bottom: $global-padding * 5;
     }
   }
@@ -119,6 +118,19 @@ h3{
   .image-div{
     height: 280px;
     overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .img-responsive{
+    margin:0 auto;
+  }
+  .content{
+    .image-div{
+      margin-bottom: 60px;
+      height: 500px;
+      overflow: hidden;
+    }
   }
 }
 
